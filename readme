@@ -1,0 +1,14 @@
+The general project information:
+1. data_loader.py -- to load and process data: filter from sparse columns,
+                     removed missing values, removed outliers,
+                     cut data to business critical features.
+
+2. feature_analyse.ipynb -- to present analyse of categorical, numerical features,
+                            and general dataset
+
+3. models_comparison.ipynb -- to play with different prediction models
+
+4. folder saved_models -- to save best models of each approach
+
+5. log_results.txt -- saved models results (accuracy, sensitivity,
+                      specificity and gini index)

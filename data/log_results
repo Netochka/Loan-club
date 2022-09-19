@@ -1,0 +1,43 @@
+------------------------------
+Accuracy: 0.8582954449182457
+Sensitivity: 0.0
+Specificity: 1.0
+Gini coefficient: 0.12162437415083638
+------------------------------
+Logistic regression
+Accuracy: 0.8576656970997713
+Sensitivity: 0.031686562107654595
+Specificity: 0.9940348302739767
+Gini coefficient: 0.13114203008297887
+------------------------------
+Logistic regression with Random Forest
+Accuracy: 0.8575527378498207
+Sensitivity: 0.03310149664202156
+Specificity: 0.9936696158009548
+Gini coefficient: 0.13164585210287127
+------------------------------
+Stepwise logistic regression
+Accuracy: 0.8582954449182457
+Sensitivity: 0.0
+Specificity: 1.0
+Gini coefficient: 0.12162437415083638
+------------------------------
+Xgboost on the default parameters
+Accuracy: 0.8582982688994945
+Sensitivity: 0.017537216763984936
+Specificity: 0.9971078962001244
+Gini coefficient: 0.12656708227337976
+------------------------------
+TODO: Update!
+Xgboost with tuned hyper-parameters
+Accuracy: 0.727159598535079
+Best parameters: {'colsample_bytree': 1, 'gamma': 0.25, 'learning_rate': 0.3, 'max_depth': 5, 'reg_lambda': 1, 'scale_pos_weight': 3, 'subsample': 1}
+Sensitivity: 0.3214093545108512
+Specificity: 0.8914358851186618
+------------------------------
+Decision tree (with pruning)
+Best parameters: {'max_depth': 2, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Accuracy: 0.8582954449182457
+Sensitivity: 0.0
+Specificity: 1.0
+Gini coefficient: 0.12162437415083638
